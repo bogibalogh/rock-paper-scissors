@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: darkblue;
+    color: white;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+.eredmenytabla {
+    background-color:lightblue ;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#játékos_pont{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin: 20px;
+    font-weight: bold;
+    
+}
+
+#szamitogep_pont{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin: 20px;
+    font-weight: bold;
+   
+}
+
+#dontetlen{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin: 20px;
+    font-weight: bold;
+}
+
+#szamitogep_valasztasa{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#win-or-lose{
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin: 20px;
+    font-weight: bold;
+
+}
+
+.options {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.options_this {
+    margin: 5px;
+    padding: 20px 30px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease; 
+}
+
+.options_this:hover {
+    transform: scale(1.05); 
+}
+
+.restart_buttom {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease; 
+}
+
+.restart_buttom:hover {
+    background-color: lightseagreen; 
+}
+
+#win-message {
+    color: white;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}

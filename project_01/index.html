@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kő Papír Olló</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Kő Papír Olló</h1>
+    </header>
+    <div class="eredmenytabla">
+        <h2>Eredmény:</h2>
+       <span id="jatekos_pont">Játékos: 0</span>
+       <span id="szamitogep_pont">Számítógép: 0</span>
+       <span id="dontetlen">Döntetlen: 0</span>
+    </div>
+
+    <p>Számítógép választása: <b><span id="szamitogep_valasztasa"></span></b></p>
+    <b><span id="win-or-lose"></span></b>
+
+<div class="options">
+    <button class="options_this" onclick="Play('Kő')"> &#x270A; </button>
+<button class="options_this" onclick="Play('Papír')"> &#x1F91A; </button>
+<button class="options_this" onclick="Play('Olló')"> &#x270C; </button>
+
+</div>
+
+<button class="restart_buttom" onclick="RestartGame()">Újra</button>
+<div id="win-message"></div>
+
+<script src="script.js"></script> 
+</body>
+</html>
